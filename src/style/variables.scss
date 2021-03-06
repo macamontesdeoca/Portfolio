@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');//Fonts
+
+$font-family: 'Rajdhani', sans-serif;
+$font-family-title: 'Shadows Into Light', cursive;;
+
+//Weight
+
+$font-weight-light: 400;
+$font-weight-normal: 200;
+$font-weight-medium: 600;
+$font-weight-heavy: 700;
+$font-weight-min: 100;
+
+//Colors
+
+$color-primary: #DDDDDD;
+$color-secondary: #222831;
+$color-tertiary: #30475E;
+
+$color-red: #F05454;
+$color-dark: black;
+
+//Breakpoints
+
+$tablet: 768px;
+$desktop: 1280px;

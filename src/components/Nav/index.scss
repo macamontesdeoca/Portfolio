@@ -1,0 +1,49 @@
+@import '../../style/variables.scss';
+
+.container{
+    display:flex;
+    background-color: transparent;
+    position:fixed;
+    justify-content: space-between;
+    z-index: 1;
+    width:100%;
+    height: 80px;
+
+
+
+    &__logo a{
+        color: $color-primary;
+        height: 80px;
+        line-height: 80px;
+        cursor: pointer;
+        text-decoration: none;
+        font-family: $font-family;
+        font-weight: $font-weight-light;
+        margin-left: 32px;
+        font-size: 25px;
+    }
+    &__links{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style: none;
+        align-items: center;
+
+        a {
+        margin-right: 32px;
+        color: $color-primary;
+        cursor: pointer;
+        text-decoration: none;
+        font-family: $font-family;
+        font-weight: $font-weight-normal;
+        font-size: 18px;
+        }
+    }
+}
+.container2{
+    background-color: $color-red;
+    transition: all 0.5s ease;
+    a{
+        color: $color-secondary
+    }
+}

@@ -1,0 +1,55 @@
+@import '../../style/variables.scss';
+
+.skills_container{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: $color-primary;
+    justify-content: center;
+    align-items: center;
+}
+.ribbon{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 0px;
+    height: 90px;
+    border-left: 50px solid #d9534f;
+    border-right: 50px solid #d9534f;
+    border-bottom: 35px solid transparent;
+
+}
+.seccion{
+    display:flex;
+    width: 100%;
+    position:relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.primero{
+    margin-top: 100px;
+
+}
+.lado_derecho{
+    position: absolute;
+    right:0;
+    margin-right: 30%;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+.lado_izquierdo{
+    position: absolute;
+    left:0;
+    margin-left: 30%;
+    margin-bottom: 20px;
+    border: 2px solid black;
+
+}
+.skill_title{
+    text-align: center;
+    text-justify: inter-word;
+    font-family:Verdana, sans-serif;
+}
+

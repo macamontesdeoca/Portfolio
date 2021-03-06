@@ -1,0 +1,34 @@
+@import '../../style/variables.scss';
+
+.cover-container {
+    height: 100vh;
+    width: 100%;
+    object-fit: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    &__video {
+      object-fit: cover;
+      width: 100%;
+      height: 100vh;
+      position: absolute;
+      z-index: -1;
+    }
+}
+.main {
+  color: $color-primary;
+  font-size: 50px;
+  text-align: center;
+  font-family: $font-family-title;
+  font-weight: $font-weight-min;
+  margin-bottom: 0%;
+}
+.subtitle {
+  color: $color-primary;
+  flex-direction: column;
+  font-family: $font-family;
+  font-size: 20px;
+  font-weight: $font-weight-min;
+}

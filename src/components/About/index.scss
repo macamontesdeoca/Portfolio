@@ -16,6 +16,7 @@
     align-items: center;
     // width: min-content;
     border: 3px solid black;
+    border-radius: 5px 10px 15px 30px/30px 15px 10px 5px;
     margin: 64px 32px 16px 32px;
 
     &_title{
@@ -35,6 +36,7 @@
     flex-direction: column;
     // justify-self: flex-end;
     border: 3px solid black;
+    border-radius: 10px/20px;
     width: 40%;
     padding:10px;
     margin: 0 32px 0 32px;
@@ -57,6 +59,7 @@
     // height:40%;
     flex-direction: column;
     border: 3px solid black;
+    border-radius: 15px 15px 0 0;
     font-family:Verdana, sans-serif;
     padding: 10px;
     margin: 16px;
@@ -70,6 +73,7 @@
 }
 .media_links_title{
     padding:5px;
+    text-align: center;
 
 }
 

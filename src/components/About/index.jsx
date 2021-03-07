@@ -49,6 +49,15 @@ const About = () =>{
                     >
                     <i class="fab fa-whatsapp fa-lg"></i>
                     </a>
+                    <span className='media_links_title'> Download my CV </span>
+                    <a
+                    className='media_links_icons'
+                    href="https://api.whatsapp.com/send?phone=5492214769734&lang=en"
+                    target="_blank"
+                    rel="noreferrer"
+                    >
+                    <i class="fas fa-file-pdf fa-lg"></i>
+                    </a>
 
                 </div>
         </div>

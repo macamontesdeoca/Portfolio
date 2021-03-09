@@ -1,5 +1,5 @@
 import almazen from '../assets/Almazen.png';
-// import petbuddies from '../assets/Pet-Buddies.jpg';
+import petbuddies from '../assets/petbuddies-xsmall.jpg';
 
 const projects = [
     {
@@ -12,20 +12,20 @@ const projects = [
     },
     {
         title: 'PetBuddies',
-        // image:petbuddies,
+        image:petbuddies,
         description: 'Mobile App',
         linkgithub:'1',
         linkdeploy:'2'
 
     },
-    {
-        title: 'Worldwide Weather',
-        image:'',
-        description: 'Climate cards',
-        linkgithub:'3',
-        linkdeploy:'4'
+    // {
+    //     title: 'Worldwide Weather',
+    //     image:'',
+    //     description: 'Climate cards',
+    //     linkgithub:'3',
+    //     linkdeploy:'4'
 
-    },
+    // },
     // {
     //     title: 'Movies',
     //     image:'',

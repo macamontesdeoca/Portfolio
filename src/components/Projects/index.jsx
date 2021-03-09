@@ -12,7 +12,7 @@ const Projects = () =>{
             </div>
             <div className='cards_container'>
                 {projects.map((item,index) =>
-            <Project className='project_card' info={item}/>
+            <Project className = 'project_card' info={item}/>
                 )}
             {/* <Project className='project_card'/>
             <Project className='project_card'/>

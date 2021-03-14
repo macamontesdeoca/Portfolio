@@ -32,3 +32,14 @@
   font-size: 20px;
   font-weight: $font-weight-min;
 }
+.arrow{
+  position:absolute;
+  bottom:80px;
+  color: white;
+  padding:10px;
+  scroll-behavior: smooth;
+  
+  // a{
+  //   text-decoration: none;
+  // }
+}

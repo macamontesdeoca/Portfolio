@@ -5,17 +5,17 @@ const projects = [
     {
         title: 'AlmaZen',
         image: almazen,
-        description: 'E-Commerce',
-        linkgithub:'7',
-        linkdeploy:'8'
+        description: 'E-commerce project made with Reactjs, Redux, Expressjs, PostgreSQL, Sequelize and Passport. Styles mostly with Sass, and some Material UI components.',
+        linkgithub:'https://github.com/macamontesdeoca/AlmaZen-Ecommerce',
+        linkdeploy:'https://almazenhenry-51bf6.web.app/'
 
     },
     {
         title: 'PetBuddies',
         image:petbuddies,
-        description: 'Mobile App',
-        linkgithub:'1',
-        linkdeploy:'2'
+        description: 'Mobile App made with TypeScript, React Native, Redux, Espressjs, MongoDB, Mongoose, and Firebase.',
+        linkgithub:'https://github.com/macamontesdeoca/PetBuddies',
+        linkdeploy:'https://github.com/macamontesdeoca/PetBuddies'
 
     },
     // {

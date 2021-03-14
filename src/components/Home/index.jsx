@@ -1,6 +1,8 @@
 import React from 'react';
 import './index.scss';
 import coverVideo from "../../assets/black-background.mp4";
+import { NavHashLink } from "react-router-hash-link";
+
 
 
 
@@ -17,6 +19,9 @@ const Home = () => {
             />
             <h1 className = 'main'>Hi ! I'm Macarena</h1>
             <div className='subtitle'>Full Stack Web Developer</div>
+            <NavHashLink className='arrow'smooth to = '#about'>
+                <i class="fas fa-angle-down fa-2x"></i>
+            </NavHashLink>
         </div>
     )
 }

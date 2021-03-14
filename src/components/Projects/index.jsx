@@ -8,7 +8,7 @@ const Projects = () =>{
     return(
         <div id= 'projects' className='projects_container'>
             <div className='projects_title'>
-                These are some the projects that I've worked in :
+                THESE ARE SOME OF THE PROJECTS THAT I'VE WORKED IN :
             </div>
             <div className='cards_container'>
                 {projects.map((item,index) =>

@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');//Fonts
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap');
 
-$font-family: 'Rajdhani', sans-serif;
-$font-family-title: 'Shadows Into Light', cursive;;
+// $font-family: 'Rajdhani', sans-serif;
+$font-family: 'Nanum Gothic Coding', monospace;
+$font-family-title: 'Shadows Into Light', cursive;
+$font-family-headers: 'PT Sans Caption', sans-serif;
 
 //Weight
 
@@ -18,10 +22,11 @@ $color-primary: #DDDDDD;
 $color-secondary: #222831;
 $color-tertiary: #30475E;
 
-$color-red: #F05454;
+$color-red: #FF7171;
 $color-dark: black;
 
 //Breakpoints
 
 $tablet: 768px;
 $desktop: 1280px;
+

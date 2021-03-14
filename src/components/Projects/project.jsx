@@ -11,8 +11,24 @@ const Project = ({info}) => {
             <p className='card_description'> 
                 {info.description}
             </p>
-            <footer>
-                Repositorio {info.linkgithub} Ver demo {info.linkdeploy}
+            <footer className='footer_links'>
+                <a
+                    className='footer_links'
+                    href={info.linkgithub}
+                    target="_blank"
+                    rel="noreferrer"
+                    >
+                    <i class="fab fa-github fa-lg">
+                    </i>
+                </a>
+                <a
+                    className='footer_links'
+                    href={info.linkdeploy}
+                    target="_blank"
+                    rel="noreferrer"
+                    >
+                    <i class="fas fa-external-link-alt fa-lg"></i>
+                </a>
             </footer>
 
         </div>

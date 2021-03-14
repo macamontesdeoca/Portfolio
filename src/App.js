@@ -22,14 +22,14 @@ function App() {
   }, [siteHeight]) //cada vez que cambia siteheight se dispara useEffect
 
   return (
-    <>
+    <div>
       <Nav change={siteHeight}/>
       <Home/>
       <About/>
       <Projects/>
       <Skills/>
       <Contact/>
-    </>
+    </div>
   );
 }
 

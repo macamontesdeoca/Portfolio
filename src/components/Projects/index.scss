@@ -9,10 +9,15 @@
 }
 .projects_title{
     margin-bottom: 250px;
-    background-color: transparent;
+    // background-color: transparent;
     position: sticky;
     top:10rem;
     margin-top: 10rem;
+    font-family: $font-family-headers;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: $color-secondary;
+    color:burlywood;
 
 }
 .cards_container{
@@ -42,9 +47,21 @@
 }
 .card_title{
     padding:10px;
+    font-family:Verdana, sans-serif;
+
 }
 .card_description{
     display:flex;
     margin:0;
-    background-color: blue;
+    font-family:Verdana, sans-serif;
+    max-width: 90%;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 25px;
+
+}
+.footer_links{
+    // margin-top: 15px;
+    color:black;
+    padding:8px;
 }

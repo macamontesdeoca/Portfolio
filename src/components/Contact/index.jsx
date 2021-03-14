@@ -24,11 +24,12 @@ const Contact = () =>{
         })
     }
     return(
-        <div id= 'contact' className='contact_container'>
+        <footer id= 'contact' className='contact_container'>
             <p className='text'>
-                Let's get in touch !
-                Fill this form and I will get back to you
-
+                LET'S GET IN TOUCH !
+                <p>
+                FILL THIS FORM AND I WILL GET BACK TO YOU
+                </p>
             </p>
             <form id='form' className='form_container' onSubmit={sendEmail}>
                 <input id='name' className='id_field' type='text' name='name' placeholder='NAME' onChange={handleChange} required/>
@@ -36,7 +37,10 @@ const Contact = () =>{
                 <textarea id='message'className='id_field' type='text' name='message'placeholder='MESSAGE' onChange={handleChange}></textarea>
                 <input id='submit'className='id_field submit' type='submit' name='name' value='Send Email!'/>
             </form>
-        </div>
+            <div className='bottom_contact'>
+                Made with tons of patience &#128134;&#8205;&#9792;&#65039;  by Macarena Montes de Oca @ 2021
+            </div>
+        </footer>
     )
 }
 

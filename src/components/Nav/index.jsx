@@ -8,6 +8,12 @@ const Nav = ({change}) => {
     const handleClick = () =>{
         setShow(true)
     }
+    const scrollToBottom = () => {
+        window.scrollTo({
+          top: document.documentElement.scrollHeight,
+          behavior: "smooth",
+        });
+      };
     const disappear = () => {
         setShow(false)
     }
@@ -31,7 +37,7 @@ const Nav = ({change}) => {
                 <NavHashLink smooth to = '#about' onClick = {handleClick}>About</NavHashLink>
                 <NavHashLink smooth to = '#projects' onClick = {handleClick}>Projects</NavHashLink>
                 <NavHashLink smooth to = '#skills' onClick = {handleClick}>Skills</NavHashLink>
-                <NavHashLink smooth to = '#contact' onClick = {handleClick}>Contact</NavHashLink>
+                <NavHashLink smooth to = '#contact' onClick = {scrollToBottom}>Contact</NavHashLink>
             </div>
         </div>
     )

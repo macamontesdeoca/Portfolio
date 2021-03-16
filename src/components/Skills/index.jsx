@@ -37,6 +37,7 @@ const Skills = () =>{
                     </div>
                 </div>
                 <div id='ladoder'>
+                    <h5 className='titulos_responsive'>FrontEnd</h5>
                     <div id='frontend'className='rectangle primero'>
                         <p className='listado'>
                             <span className='next-to-icon'>HTML</span>
@@ -49,6 +50,7 @@ const Skills = () =>{
                             <img alt = 'redux icon' className='iconoredux'src={redux}></img>
                         </p>
                         </div>
+                    <h5 className='titulos_responsive'>BackEnd</h5>
                     <div id='backend'className='rectangle'>
                         <p className='listado'>
                             <span className='next-to-icon'>NodeJS</span>
@@ -57,12 +59,14 @@ const Skills = () =>{
                             <img alt = 'express icon' className='iconoexpress'src={express}></img>
                         </p>
                     </div>
+                    <h5 className='titulos_responsive'>Database</h5>
                     <div id='database'className='rectangle'>
                         <p className='listado'>
                             <span className='next-to-icon'>PostgreSQL</span>
                             <img alt = 'postgre icon' className='iconopostgre'src={postgre}></img>
                         </p>
                     </div>
+                    <h5 className='titulos_responsive'>Learning...</h5>
                     <div id='Aprendiendo' className='rectangle'>
                         <p className='listado'>
                             <span className='next-to-icon'>MongoDB</span>

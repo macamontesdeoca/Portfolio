@@ -2,13 +2,16 @@
 
 .about_container{
     display:flex;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     width: 100%;
     background-color: white;
+    @media screen and (max-width: 715px) {
+        height:140vh;
+      }
 
 }
 .about_title{
@@ -19,35 +22,55 @@
     background-color: $color-secondary;
     color:burlywood;
     font-family: $font-family-headers;
+    @media screen and (max-width: 715px) {
+        margin-top: 10px;
+      }
+    
 
 }
 .about_content{
     display: flex;
     justify-content: center;
     align-items: center;
+    @media screen and (max-width: 715px) {
+        flex-direction: column;
+        max-height:100%;
+      }
 
 }
 .picture_container{
     display:flex;
-    flex-direction: column  ;
+    flex-direction: column;
     // justify-self: flex-start;
     align-items: center;
     // width: min-content;
     border: 3px solid black;
     border-radius: 5px 10px 15px 30px/30px 15px 10px 5px;
     margin: 32px 32px 16px 32px;
+    // @media screen and (max-width: 715px) {
+    //     height:50%;
+    //   }
 
     &_title{
         align-self:baseline;
         margin-left: 24px;
         font-family:Verdana, sans-serif;
+        @media screen and (max-width: 715px) {
+            margin-left: 0;
+            padding:5px;
+          }
     }
+    
 }
 .profile_picture{
     justify-self: center;
     width: 296px;
     height: 400px;
     margin: 24px 24px 0px 24px;
+    @media screen and (max-width: 715px) {
+        width:190px;
+        height:250px;
+      }
 }
 .description_container{
     display:flex;
@@ -59,6 +82,9 @@
     padding:10px;
     margin: 16px 32px 0 32px;
     height: max-content;
+    @media screen and (max-width: 715px) {
+        width: 70%;
+      }
 }
 .info_title{
     border-bottom: 2px solid black;
@@ -72,6 +98,9 @@
     text-align: justify;
     text-justify: inter-word;
     font-family:Verdana, sans-serif;
+    @media screen and (max-width: 715px) {
+        line-height: 18px;
+      }
 
 }
 .media_links{
@@ -84,6 +113,9 @@
     padding: 10px;
     margin: 16px;
     height: max-content;
+    @media screen and (max-width: 715px) {
+        flex-direction: row;
+      }
 
     a{
         margin: 20px;
@@ -94,11 +126,15 @@
         &:hover{
             color: $color-red;
         }
+        @media screen and (max-width: 715px) {
+            margin:3%;
+          }
     }
     
 }
 .media_links_title{
     padding:5px;
     text-align: center;
+    
 
 }

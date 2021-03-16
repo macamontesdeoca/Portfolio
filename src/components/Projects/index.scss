@@ -5,6 +5,7 @@
     background-color: white;
     align-items: flex-start;
     justify-content: space-evenly;
+    width: 100%;
     
 }
 .projects_title{
@@ -18,6 +19,9 @@
     padding: 10px;
     background-color: $color-secondary;
     color:burlywood;
+    @media screen and (max-width: 715px) {
+        margin-bottom:90px;
+      }
 
 }
 .cards_container{

@@ -64,4 +64,7 @@
     // margin-top: 15px;
     color:black;
     padding:8px;
+    &:hover{
+        color: $color-red;
+    }
 }

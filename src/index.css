@@ -8,7 +8,18 @@ body {
 }
 a:-webkit-any-link{
   text-decoration:none !important;
-  }
+}
+/* ::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 10px;
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

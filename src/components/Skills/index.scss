@@ -29,7 +29,7 @@
     height: 50px;
     background: $color-secondary;
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-right: 90px;
 
     &:after {
@@ -56,7 +56,7 @@
 .rectangle{
     display: flex;
     height: 46px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     width:550px;
     align-content: center;
     border: 2px solid black;
@@ -78,7 +78,7 @@
 .skill_title{
     text-align: center;
     text-justify: inter-word;
-    font-family:Verdana, sans-serif;
+    font-family:$font-family;
     font-weight: $font-weight-light;
     color: burlywood;
 }

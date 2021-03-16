@@ -1,5 +1,21 @@
 @import '../../style/variables.scss';
 
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
 .cover-container {
     height: 100vh;
     width: 100%;
@@ -28,6 +44,7 @@
 .subtitle {
   color: $color-primary;
   flex-direction: column;
+  align-items: center;
   font-family: $font-family;
   font-size: 20px;
   font-weight: $font-weight-min;
@@ -38,8 +55,12 @@
   color: white;
   padding:10px;
   scroll-behavior: smooth;
-  
-  // a{
-  //   text-decoration: none;
-  // }
+}
+.last_text{
+  position:absolute;
+  bottom:40px;
+  color: white;
+  padding:10px;
+  font-family: $font-family;
+  animation: bounce 2s linear infinite;
 }

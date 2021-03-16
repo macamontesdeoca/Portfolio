@@ -21,7 +21,9 @@ const Home = () => {
             <div className='subtitle'>Full Stack Web Developer</div>
             <NavHashLink className='arrow'smooth to = '#about'>
                 <i class="fas fa-angle-down fa-2x"></i>
+                {/* <p>Scroll down</p> */}
             </NavHashLink>
+            <div className='last_text'>scroll down</div>
         </div>
     )
 }

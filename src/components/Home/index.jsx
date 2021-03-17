@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.scss';
 import coverVideo from "../../assets/black-background.mp4";
+import poster from '../../assets/poster.jpg';
 import { NavHashLink } from "react-router-hash-link";
 
 
@@ -15,6 +16,8 @@ const Home = () => {
                 <video
                     className="cover-container__video"
                     src={coverVideo}
+                    preload='none'
+                    poster={poster}
                     autoPlay
                     loop
                     muted

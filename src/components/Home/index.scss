@@ -34,9 +34,10 @@
       height: 100vh;
       position: absolute;
       z-index: -1;
-    }
-    @media screen and (max-width: 715px) {
-      display: none;
+
+      @media screen and (max-width: 715px) {
+        display: none;
+      }
     }
 }
 .main {

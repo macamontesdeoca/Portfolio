@@ -24,6 +24,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @media screen and (max-width: 715px) {
+      background-color: black;
+    }
   
     &__video {
       object-fit: cover;
@@ -31,6 +34,9 @@
       height: 100vh;
       position: absolute;
       z-index: -1;
+    }
+    @media screen and (max-width: 715px) {
+      display: none;
     }
 }
 .main {

@@ -9,13 +9,13 @@ import Contact from './components/Contact';
 
 
 function App() {
-
   const[siteHeight, setSiteHeight] = useState(0); //la altura de scrolleo
 
   const handleScroll = () => {
     const position = window.pageYOffset; 
     setSiteHeight(position); //actualizo el estado de react con el valor de desplazamiento en el eje Y
   };
+
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll) //cada vez que hago scroll ejecuto la funcion, que va a cambiar el valor de siteheight

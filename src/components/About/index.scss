@@ -10,7 +10,8 @@
     width: 100%;
     background-color: white;
     @media screen and (max-width: 715px) {
-        height:140vh;
+        min-height: 170vh;
+        // max-height:160vh;
       }
 
 }

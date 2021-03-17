@@ -76,4 +76,7 @@
     border-top: 1px solid blanchedalmond;
     padding-top: 10px;
     font-size: 18px;
+    @media screen and (max-width: 715px) {
+        bottom: 10px;
+      }
 }

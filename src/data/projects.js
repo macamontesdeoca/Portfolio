@@ -13,7 +13,7 @@ const projects = [
     {
         title: 'PetBuddies',
         image:petbuddies,
-        description: 'Mobile App made with TypeScript, React Native, Redux, Espressjs, MongoDB, Mongoose, and Firebase.',
+        description: 'Mobile App made with TypeScript, React Native, Redux, Expressjs, MongoDB, Mongoose, and Firebase.',
         linkgithub:'https://github.com/macamontesdeoca/PetBuddies',
         linkdeploy:'https://github.com/macamontesdeoca/PetBuddies'
 
